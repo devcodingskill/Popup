@@ -8,13 +8,13 @@
 </head>
 <body>
   <div class="container">
-    <button id="btn" type="submit" >Click Me</button>
+    <button id="btn" type="submit" onclick="showpopup()">Click Me</button>
   
-   <div class="popup">
+   <div class="popup" id="popup">
     <img src="images/tick.svg"/>
     <h2>Thank you!</h2>
     <p>We have received your request and will get back to you shortly.</p>
-    <button id="close" type="submit">Close</button>
+    <button id="close" type="submit" onclick="hidepopup()">Close</button>
    </div>
 
 
